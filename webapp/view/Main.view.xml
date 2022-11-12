@@ -1,0 +1,21 @@
+<mvc:View
+	controllerName="miyasuta.file2googledrive.controller.Main"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:u="sap.ui.unified"
+	xmlns:mvc="sap.ui.core.mvc">
+
+	<l:VerticalLayout>
+		<u:FileUploader
+			id="fileUploader"
+			useMultipart="false"
+			sendXHR="true"
+			uploadUrl="cpi/http/googleDriveIntegration"
+			uploadComplete="handleUploadComplete"/>
+		<Button
+			text="Upload File"
+			press="handleUploadPress"/>
+	</l:VerticalLayout>
+
+</mvc:View>

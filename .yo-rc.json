@@ -1,0 +1,15 @@
+{
+  "generator-ui5-ts-app": {
+    "application": "file2googledrive",
+    "namespace": "miyasuta",
+    "framework": "SAPUI5",
+    "frameworkVersion": "1.108.0",
+    "author": "Mio Yasutake",
+    "initrepo": true,
+    "tstypes": "@sapui5/ts-types-esm",
+    "tstypesVersion": "1.108.0",
+    "appId": "miyasuta.file2googledrive",
+    "appURI": "miyasuta/file2googledrive",
+    "setupCompleted": true
+  }
+}

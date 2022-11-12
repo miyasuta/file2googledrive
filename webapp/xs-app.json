@@ -1,0 +1,18 @@
+{
+    "welcomeFile": "/index.html",
+    "routes": [ 
+      {
+          "source": "^/cpi/(.*)$",
+          "target": "/$1",
+          "destination": "CPI",
+          "authenticationType": "xsuaa",
+          "csrfProtection": false
+      },
+      {
+        "source": "^(.*)",
+        "target": "$1",
+        "authenticationType": "xsuaa",
+        "service": "html5-apps-repo-rt"
+      }
+    ]
+  }

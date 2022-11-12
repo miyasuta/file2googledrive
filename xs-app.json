@@ -1,0 +1,17 @@
+{
+    "routes": [ 
+      {
+          "source": "^/cpi/(.*)$",
+          "target": "/$1",
+          "destination": "CPI",
+          "authenticationType": "xsuaa",
+          "csrfProtection": true
+      },
+      {
+        "source": "^(.*)",
+        "target": "$1",
+        "authenticationType": "xsuaa",
+        "service": "html5-apps-repo-rt"
+      }
+    ]
+  }
