@@ -36,14 +36,3 @@ server:
       afterMiddleware: compression
       configuration:
         *transpileConfig
-    - name: ui5-middleware-cfdestination
-      afterMiddleware: compression
-      configuration:
-        authenticationMethod: "route" # "none" || "route", default: "none"
-        allowServices: true # allows BTP services like SAP IoT to be used 
-        debug: true
-        destinations:
-          # check that the destination name (here: "backend") matches your router in xs-app.json
-          - name: "CPI"
-            url: "https://f83f5860trial.it-cpitrial05-rt.cfapps.us10-001.hana.ondemand.com"    
-            forwardAuthToken: true

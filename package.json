@@ -20,7 +20,6 @@
     "@ui5/cli": "^2.14.14",
     "eslint": "^8.27.0",
     "typescript": "^4.8.4",
-    "ui5-middleware-cfdestination": "^0.9.1",
     "ui5-middleware-livereload": "^0.7.0",
     "ui5-task-zipper": "^0.5.1",
     "ui5-tooling-transpile": "^0.2.0"
@@ -29,8 +28,7 @@
     "dependencies": [
       "ui5-middleware-livereload",
       "ui5-tooling-transpile",
-      "ui5-task-zipper",
-      "ui5-middleware-cfdestination"
+      "ui5-task-zipper"
     ]
   }
 }
