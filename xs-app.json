@@ -5,7 +5,7 @@
           "target": "/$1",
           "destination": "CPI",
           "authenticationType": "xsuaa",
-          "csrfProtection": true
+          "csrfProtection": false
       },
       {
         "source": "^(.*)",
