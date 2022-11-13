@@ -1,4 +1,3 @@
-import MessageBox from "sap/m/MessageBox";
 import BaseController from "./BaseController";
 import formatter from "../model/formatter";
 import FileUploader from "sap/ui/unified/FileUploader";
